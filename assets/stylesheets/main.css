@@ -1,0 +1,138 @@
+:root{
+    --primary : #222eee;
+}
+
+body{
+    font-family: "Lato", 'Courier New', Courier, monospace;
+}
+.container{
+
+    /* background: #000; */
+    height: 80vh;
+    background: url('/assets/images/bg-pattern-bottom-desktop.svg');
+    /* background: url('/assets/images/bg-pattern-bottom-desktop.svg'); */
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.main{
+    /* background : var(--primary); */
+    height: 80vh;
+    width: 80%;
+    margin: 50px auto 0 auto;
+    border-radius: 5px;
+}
+.up, .down{
+    height: 50%;
+    display: flex;
+
+}
+
+.left{
+    width: 40%;
+    /* background-color: chartreuse; */
+}
+.right{
+    width: 50%;
+
+    /* background-color: coral; */
+}
+
+.right p{
+    color: purple;
+}
+.right1, .center1, .left1{
+    /* padding: 20px; */
+    margin: 20px;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffff;
+    /* background: #000; */
+
+}
+
+.right1{
+    background: rgb(70, 4, 70);
+    margin-top: 40px;
+}
+.center1{
+    /* width: 30%; */
+    margin-top: 30px;
+    background: rgb(70, 4, 70);
+}
+.left1{
+    background: rgb(70, 4, 70);
+}
+.left h1{
+    font-size: 38px;
+    color: rgb(105, 8, 105);
+    font-weight: 500;
+    padding: 10px;
+    width: 80%;
+}
+.left p{
+    padding: 10px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+
+.review {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(236, 194, 236);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.review img{
+    width: 20px;
+
+}
+.img3{
+    margin: 20px 0 20px 50px;
+    width: 80%;
+    /* background: #000; */
+}.img2{
+    margin: 20px 0 20px 20px;
+    width: 80%;
+    /* background: #000; */
+}
+
+
+
+.down img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.leftup, .right2, .center{
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftdown{
+    margin-top: 15px;
+}
+.leftdown p{
+    font-size: 8px;
+    line-height: 2;
+    
+}
+.speaker-details{
+    margin-top: 5px;
+}
+.speaker-details p{
+    color: purple;
+    margin-top: 5px;
+    font-size:14px ;
+
+}
+
+.leftdown{
+    font-size: 12px;
+    line-height: 18px;
+}
